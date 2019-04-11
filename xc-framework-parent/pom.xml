@@ -9,7 +9,6 @@
         <module>../xc-framework-model</module>
         <module>../xc-framework-utils</module>
         <module>../xc-service-api</module>
-        <module>../maven_jar</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

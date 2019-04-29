@@ -9,6 +9,10 @@
         <module>../xc-framework-model</module>
         <module>../xc-framework-utils</module>
         <module>../xc-service-api</module>
+        <module>../rabbit-producer-demo</module>
+        <module>../rabbit-consumer-demo</module>
+        <module>../xc-cms-client</module>
+        <module>../xc-govern-center</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -154,6 +158,13 @@
                 <version>${guava.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.SR1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>

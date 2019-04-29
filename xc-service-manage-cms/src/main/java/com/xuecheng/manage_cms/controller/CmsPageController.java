@@ -64,5 +64,4 @@ public class CmsPageController implements CmsPageControllerApi {
     public CmsPageResult delete(@PathVariable("id") String id) {
         return cmsPageService.delete(id);
     }
-
 }
